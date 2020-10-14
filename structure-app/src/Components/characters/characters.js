@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-//import List from '../list/list';
+import Individual from '../individual/individual';
 import './characters.css';
 
 class Characters extends Component {
@@ -11,11 +11,10 @@ class Characters extends Component {
         var {data} = this.props;
         return (
             <div className="char">
-                <ul>
-                    {
-                        data.map(item => <li key={item.id}>{item.name}</li>)
-                    }
-                </ul>
+                <h1>Characters</h1>
+                {
+                    data.map(item => <Individual data={item} />)
+                }
             </div>
         );
     }
