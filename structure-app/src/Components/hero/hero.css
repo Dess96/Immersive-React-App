@@ -1,0 +1,14 @@
+.heroImage {
+    display: flex;
+    background-image: url(heroImg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: flex-end;
+    height: 30rem;
+}
+
+.heroText {
+    color: #ffffff;
+}
