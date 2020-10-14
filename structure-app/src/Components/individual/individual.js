@@ -14,9 +14,13 @@ class Individual extends Component {
             <div className="char">
                 <div className="cont">
                     <h2>{data.name}</h2>
-                    <span>{data.status}</span>
-                    <span>{data.species}</span>
-                    <img src={data.image}></img>
+                    <div className="imgDiv">
+                        <img src={data.image} />
+                    </div>
+                    <div className="spanDiv">
+                        <span>{data.status}</span>
+                        <span>{data.species}</span>
+                    </div>
                 </div>
             </div>
             : <></>

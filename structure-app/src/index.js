@@ -6,6 +6,7 @@ import Home from '../src/Pages/home';
 
 ReactDOM.render(
   <React.StrictMode>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet"></link>
     <Home />
   </React.StrictMode>,
   document.getElementById('root')

@@ -13,7 +13,6 @@ class Home extends Component {
         return (
             <div className="home">
                 <Hero />
-                <Description />
                 <Characters data={getCharacters(rmChar)}/>
             </div>
         );

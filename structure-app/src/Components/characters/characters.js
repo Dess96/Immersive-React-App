@@ -10,8 +10,8 @@ class Characters extends Component {
     render() {
         var {data} = this.props;
         return (
-            <div className="char">
-                <h1>Characters</h1>
+            <div className="chars">
+                
                 {
                     data.map(item => <Individual data={item} />)
                 }

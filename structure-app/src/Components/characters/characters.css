@@ -1,5 +1,8 @@
-.char {
-    background-color: #1b4332;
+.chars {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 h1 {
