@@ -18,9 +18,11 @@ class Home extends Component {
             <div className="home">
                 <Hero />
                 <Characters data={getInformation(rmChar)}/>
-                <Button data={getInformation(rmEps)} title={'Season 1'}/>
-                <Button data={getInformation(rmEps2)} title={'Season 2'}/>
-                <Button data={getInformation(rmEps3)} title={'Season 3'}/>
+                <div className="buttonDiv">
+                    <Button data={getInformation(rmEps)} title={'Season 1'}/>
+                    <Button data={getInformation(rmEps2)} title={'Season 2'}/>
+                    <Button data={getInformation(rmEps3)} title={'Season 3'}/>
+                </div>
             </div>
         );
     }

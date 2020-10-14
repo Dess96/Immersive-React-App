@@ -13,7 +13,7 @@ class Button extends Component {
 
     link(item) {
         this.setState({
-            selectedItem: item,
+            selectedItem: this.state.selectedItem && item.id === this.state.selectedItem.id ? null : item
         });
     }
 

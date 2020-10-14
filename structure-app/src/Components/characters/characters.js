@@ -11,7 +11,6 @@ class Characters extends Component {
         var {data} = this.props;
         return (
             <div className="chars">
-                
                 {
                     data.map(item => <Individual data={item} />)
                 }
